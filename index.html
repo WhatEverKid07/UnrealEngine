@@ -6,17 +6,21 @@
     <title>Unreal Engine Game</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap" rel="stylesheet">
 
     <style>
+        /* General Reset */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
+        /* Global Styles */
         body {
-            font-family: "Silkscreen", serif;
+            font-family: "Newsreader", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
             line-height: 1.6;
             background-color: #f9f9f9;
             color: #333;
@@ -29,13 +33,16 @@
         }
 
             header h1 {
-                font-family: "Silkscreen", serif;
-                font-size: 2.5rem;
+                font-family: "Newsreader", serif;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-size: 3rem;
                 margin-bottom: 10px;
             }
 
             header p {
-                font-size: 1.2rem;
+                font-weight: 400;
+                font-size: 1.7rem;
                 color: #555;
             }
 
@@ -49,24 +56,43 @@
         }
 
             section h2 {
-                font-family: "Silkscreen", serif;
-                font-size: 2rem;
+                font-family: "Newsreader", serif;
+                font-optical-sizing: auto;
+                font-weight: 600;
+                font-size: 2.5rem;
                 margin-bottom: 10px;
                 color: #444;
             }
 
             section p {
+                font-weight: 400;
                 margin-bottom: 20px;
+                font-size: 1.2rem;
             }
 
         footer {
             text-align: center;
             margin-top: 40px;
-            font-size: 0.9rem;
+            font-size: 1rem;
+            font-weight: 300;
             color: #777;
         }
-    </style>
+        /* Links */
+        a {
+            color: lightblue;
+            text-decoration: none;
+        }
 
+            a:hover {
+                color: red;
+            }
+
+        /* Custom Classes */
+        .thick-underline {
+            text-decoration: underline;
+            text-decoration-thickness: 3px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -81,20 +107,22 @@
         </section>
 
         <section>
-            <h2>Features</h2>
-            <p>- Fully customizable</p>
-            <p>- Powered by GitHub Pages</p>
-            <p>- Uses modern web technologies</p>
+            <h2>Process</h2>
+            <p>
+                <span class="thick-underline">Art/Visuals:</span>
+            </p>
+            <p>
+                <span class="thick-underline">Sound/Music:</span>
+            </p>
+            <p>
+                <span class="thick-underline">Code:</span>
+            </p>
         </section>
 
         <section>
             <h2>Contact</h2>
-            <p>Feel free to reach out with questions or feedback!</p>
+            <p>Feel free to check out my <a href="https://eugeniocl.wixsite.com/eclgamesdesign" target="_blank">portfolio</a> for links to get in touch!</p>
         </section>
     </main>
-
-    <footer>
-        <p>© 2024 My Custom Website. All rights reserved.</p>
-    </footer>
 </body>
 </html>
