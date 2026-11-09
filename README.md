@@ -9,6 +9,3 @@ IMPORTANT: There is no start menu, when you want to close the game use Alt+F4.
 
 Click on the blue "<>Code" dropdown and click "download zip".
 Unzip the folder and open the "FirstGame.uproject" file in UE.
-## Support
-
-For support, create an issue or contact me via email: ecl.gamedev@gmail.com
